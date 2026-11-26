@@ -1,0 +1,60 @@
+# Python Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases
+*.sqlite3
+*.sqlite3-journal
+*.db
+
+# Media & Static Files
+media/
+staticfiles/
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Log Files
+*.log
+
+# Additional secret protection
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+secrets.h
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+
+# Scratch & Temporary Dev Scripts
+scratch/

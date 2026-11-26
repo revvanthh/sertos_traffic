@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* SERTOS global styles */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100%;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  background: #020b18;
+  color: #f1f5f9;
+}
+
+/* Custom Leaflet dark theme polish */
+.leaflet-container {
+  background: #041022;
+  font-family: "Inter", sans-serif;
+}
+
+.sertos-div-icon {
+  background: transparent;
+  border: none;
+}
+
+.leaflet-tooltip.sertos-map-tooltip {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.leaflet-tooltip.sertos-map-tooltip::before {
+  display: none;
+}
+
+/* Subtle dark scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #061326;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1d3552;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2b4d75;
+}
